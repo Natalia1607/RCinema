@@ -1,0 +1,13 @@
+:root {
+    --main-dark: #121521;
+    --main-medium: #1b213a;
+    --main-light: #40467c;
+
+    --text-color: #b2b2d3;
+    --color-white: #ffffff;
+
+    --margin-content: 120px;
+
+    --font-darker: 'Darker Grotesque';
+    --font-josefin: 'Josefin Sans';
+}
