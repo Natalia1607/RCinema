@@ -1,10 +1,7 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
+/* Main */
 body {
     background-color: var(--main-dark);
+    font-family: var(--font-darker);
 }
 
 .flex {
@@ -32,7 +29,6 @@ body {
 }
 
 .header__item {
-    font-family: var(--font-darker);
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 27px;
@@ -67,7 +63,6 @@ body {
 
 .banner__data span{
     margin-bottom: 40px;
-    font-family: var(--font-darker);
     font-size: 1.25rem;
     line-height: 27px;
     letter-spacing: 0.08em;
@@ -85,15 +80,18 @@ body {
 }
 
 .banner__data p {
-    font-family: var(--font-darker);
     font-size: 2rem;
     line-height: 43px;
     color: var(--text-color);
 }
 
+.banner__button {
+    width: 410px;
+}
+
 .button  {
-    padding: 16px 40px 20px 40px;
-    font-family: var(--font-darker);
+    justify-content: center;
+    height: 59px;
     font-weight: 600;
     font-size: 1.062rem;
     line-height: 23px;
@@ -101,14 +99,16 @@ body {
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--color-white);
+    border: none;
 }
 
 .button--violet {
-    margin-right: 30px;
+    width: 176px;
     background: var(--main-light);
 }
 
 .button--transparent {
+    width: 204px;
     background: transparent;
     border: 2px solid var(--color-white);
 }
@@ -125,6 +125,19 @@ body {
     width: 1000px;
     height: 524px;
     background: linear-gradient(0deg, rgba(20, 25, 35, 0.6) 31.25%, rgba(20, 25, 35, 0) 100%), url(../images/link.jpg);
+}
+
+.open-link__img::after {
+    content: url(../images/play-link.svg);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    width: 17px;
+    height: 24px;
+    background: var(--main-light);
+    padding: 18px 16px 19px 24px;
 }
 
 .open-link__data {
@@ -150,45 +163,20 @@ body {
 
 .open-link__wrap h3 {
     margin-bottom: 20px;
-    font-family: var(--font-darker);
     font-size: 2rem;
     line-height: 100%;
     color: var(--color-white);
 }
 
 .open-link__wrap p {
-    font-family: var(--font-darker);
     font-size: 1.25rem;
     line-height: 130%;
     color: var(--text-color);  
 }
 
 /* Footer */
-.page__footer-top {
+.footer-top {
     height: 199px;
-}
-
-.page__footer-bottom{
-    background: var(--main-medium);
-}
-
-.page__footer-bottom .container{
-    height: 127px;
-}
-
-.social {
-    width: 200px;
-    height: 60px;
-}
-
-.social__icon {
-    margin: auto;
-}
-
-.social__icon--bg {
-    width: 60px;
-    height: 60px;
-    background: var(--main-light);
 }
 
 .footer__logo {
@@ -199,17 +187,7 @@ body {
     margin-right: 97px;
 }
 
-.footer__contacts h4 {
-    margin-bottom: 10px;
-    font-family: var(--font-darker);
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 130%;
-    color: var(--text-color);
-}
-
 .footer__contacts a {
-    font-family: var(--font-darker);
     font-weight: 600;
     font-size: 1.375rem;
     line-height: 130%;
@@ -220,18 +198,16 @@ body {
     margin-right: 104px;
 }
 
-.footer__adress h4{
+.footer-top h4{
     margin-bottom: 10px;
-    font-family: var(--font-darker);
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 130%;
     color: var(--text-color);
 }
 
-.footer__adress p{
+.footer-top p{
     width: 279px;
-    font-family: var(--font-darker);
     font-weight: 600;
     font-size: 1.375rem;
     line-height: 130%;
@@ -252,7 +228,6 @@ body {
 
 .footer__sub input[placeholder] {
     padding-left: 25px;
-    font-family: var(--font-darker);
     font-weight: 500;
     font-size: 1.25rem;
     line-height: 27px;
@@ -260,25 +235,38 @@ body {
     opacity: 0.5;
 }
 
-.footer__sub button {
+.footer__btn {
     margin-right: 4px;
     width: 147px;
-    height: 60px;
     background: var(--main-light);
-    border: none;
-    font-family: var(--font-darker);
-    font-weight: 600;
     font-size: 1.062rem;
-    line-height: 23px;
-    text-align: center;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--color-white);
     cursor: pointer;
 }
 
+.footer-bottom{
+    background: var(--main-medium);
+}
+
+.footer-bottom .container{
+    height: 127px;
+}
+
+.social {
+    width: 200px;
+    height: 60px;
+}
+
+.social__icon {
+    margin: auto;
+}
+
+.social__icon--bg {
+    width: 60px;
+    height: 60px;
+    background: var(--main-light);
+}
+
 .footer__copyrithg {
-    font-family: var(--font-darker);
     font-size: 1.25rem;
     line-height: 27px;
     color: var(--text-color);
