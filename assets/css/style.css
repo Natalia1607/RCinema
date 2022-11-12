@@ -24,8 +24,8 @@ body {
     height: 140px;
 }
 
-.header__nav {
-    width: 706px;
+.header__list {
+    gap: 42px;
 }
 
 .header__item {
@@ -90,8 +90,7 @@ body {
 }
 
 .button  {
-    justify-content: center;
-    height: 59px;
+    padding: 16px 40px 20px 40px;
     font-weight: 600;
     font-size: 1.062rem;
     line-height: 23px;
@@ -103,12 +102,10 @@ body {
 }
 
 .button--violet {
-    width: 176px;
     background: var(--main-light);
 }
 
 .button--transparent {
-    width: 204px;
     background: transparent;
     border: 2px solid var(--color-white);
 }
@@ -141,7 +138,7 @@ body {
 }
 
 .open-link__data {
-    padding: 62px 20px;
+    padding: 80px 30px;
     background-color: var(--main-medium);
 }
 
@@ -157,13 +154,13 @@ body {
 .open-link__wrap {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 10px;
-    grid-row-gap: 70px;
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
 }
 
 .open-link__wrap h3 {
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 1.875rem;
     line-height: 100%;
     color: var(--color-white);
 }
