@@ -1,13 +1,12 @@
 :root {
-    --main-dark: #121521;
-    --main-medium: #1b213a;
-    --main-light: #40467c;
-
-    --text-color: #b2b2d3;
+    --color-dark: #121521;
+    --color-middle: #1B213A;
+    --color-light: #40467C;
+    --color-light-hover: #51578C;
     --color-white: #ffffff;
-
-    --margin-content: 120px;
-
-    --font-darker: 'Darker Grotesque';
-    --font-josefin: 'Josefin Sans';
-}
+    --text-dark: #141923;
+    --text-light: #B2B2D3;
+  
+    --font-size-base: 20px;
+    --grid-gutter: 30px;
+  }
