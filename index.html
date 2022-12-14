@@ -30,17 +30,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="page">
-    <!-- HeadeК -->
+    <!-- Header -->
     <header class="page-header">
         <div class="container page-header__row">
-        <img src="assets/images/logo.svg" alt="RCinema" width="120">
-    
-        <button class="page-header__toggle hamburger hamburger--squeeze" type="button" onclick="this.classList.toggle('is-active')">
-            <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-            </span>
-        </button>
-    
+        <img src="assets/images/icons/logo.svg" alt="RCinema" width="120">
+
         <nav class="page-header__nav">
             <ul class="mainmenu">
             <li class="mainmenu__item"><a href="#!">The experience</a></li>
@@ -51,10 +45,16 @@
             <li class="mainmenu__item"><a href="#!">Contact us</a></li>
             </ul>
         </nav>
+
+        <div class="mobilemenu">
+            <span class="mobilemenu__item"></span>
+            <span class="mobilemenu__item"></span>
+            <span class="mobilemenu__item"></span>
+        </div>
         </div>
     </header>
     
-    <!-- контент -->
+    <!-- Main -->
     <main>
         <!-- section cover -->
         <section class="section-cover">
@@ -116,7 +116,7 @@
         <div class="container">
             <div class="page-section__header">
             <h2 class="page-section__title">Our locations</h2>
-            <!-- навигация для слайдера -->
+            <!-- slider -->
             <div class="slider-nav slider-nav--horizontal">
                 <button class="slider-nav__arrow slider-nav__arrow--disabled" type="button">
                 <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -130,11 +130,10 @@
                 </button>
             </div>
             </div>
-            <!-- слайдер -->
             <div class="slider-places">
             <ul class="slider-places__list">
-                <!-- слайд 1 -->
-                <li class="slider-places__item">
+                <!-- 1 -->
+                <li class="slider-places__item active">
                 <div class="place-card">
                     <div class="place-card__photo">
                     <img src="assets/images/place-1.jpg" alt="">
@@ -152,7 +151,7 @@
                     </div>
                 </div>
                 </li>
-                <!-- слайд 2 -->
+                <!-- 2 -->
                 <li class="slider-places__item">
                 <div class="place-card">
                     <div class="place-card__photo">
@@ -171,7 +170,7 @@
                     </div>
                 </div>
                 </li>
-                <!-- слайд 3 -->
+                <!-- 3 -->
                 <li class="slider-places__item">
                 <div class="place-card">
                     <div class="place-card__photo">
@@ -190,7 +189,7 @@
                     </div>
                 </div>
                 </li>
-                <!-- слайд 3 -->
+                <!-- 4 -->
                 <li class="slider-places__item">
                 <div class="place-card">
                     <div class="place-card__photo">
@@ -211,6 +210,13 @@
                 </li>
             </ul>
             </div>
+
+            <div class="dots__wrapper">
+                <span class="dot place__dot active"></span>
+                <span class="dot place__dot"></span>
+                <span class="dot place__dot"></span>
+                <span class="dot place__dot"></span>
+            </div>
         </div>
         </section>
     
@@ -224,7 +230,7 @@
                 </div>
                 <!-- faq list -->
                 <ul class="faq-list">
-                <!-- вопрос 1 -->
+                <!-- 1 -->
                 <li class="faq-list__item faq-card">
                     <div class="faq-card__toggle" role="button" tabindex="0" onclick="this.parentElement.classList.toggle('is-open')">How does it work?<i class="faq-card__toggle-icon"></i></div>
                     <div class="faq-card__content">
@@ -232,14 +238,14 @@
                     <p>Our team of experts arrive in a fully equipped van and will advise you on the best place to setup the cinema based on our experience.</p>
                     </div>
                 </li>
-                <!-- вопрос 2 -->
+                <!-- 2 -->
                 <li class="faq-list__item faq-card">
                     <div class="faq-card__toggle" role="button" tabindex="0" onclick="this.parentElement.classList.toggle('is-open')">What films can I choose?<i class="faq-card__toggle-icon"></i></div>
                     <div class="faq-card__content">
                     <p>Our team of experts arrive in a fully equipped van and will advise you on the best place to setup the cinema based on our experience.</p>
                     </div>
                 </li>
-                <!-- вопрос 3 -->
+                <!-- 3 -->
                 <li class="faq-list__item faq-card">
                     <div class="faq-card__toggle" role="button" tabindex="0" onclick="this.parentElement.classList.toggle('is-open')">How long does it takes to setup?<i class="faq-card__toggle-icon"></i></div>
                     <div class="faq-card__content">
@@ -256,50 +262,55 @@
     
         <!-- section-gallery -->
         <section class="page-section section-gallery">
-        <div class="container">
-            <div class="page-section__header">
-            <h2 class="page-section__title">Gallery</h2>
-            <div class="page-section__header-text">See more and follow us <a href="#!" target="_blank">@rooftopcinema</a></div>
-            <!-- навигация для слайдера -->
-            <div class="slider-nav slider-nav--horizontal">
-                <button class="slider-nav__arrow slider-nav__arrow--disabled" type="button">
-                <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 1L2 11L12 21" stroke="#ffffff" stroke-width="2"/>
-                </svg>
-                </button>
-                <button class="slider-nav__arrow" type="button">
-                <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L11 11L1 21" stroke="#ffffff" stroke-width="2"/>
-                </svg>
-                </button>
+            <div class="container">
+                <div class="page-section__header">
+                <h2 class="page-section__title">Gallery</h2>
+                <div class="page-section__header-text">See more and follow us <a href="#!" target="_blank">@rooftopcinema</a></div>
+                <!-- slider -->
+                <div class="slider-nav slider-nav--horizontal">
+                    <button class="slider-nav__arrow slider-nav__arrow--disabled" type="button">
+                    <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 1L2 11L12 21" stroke="#ffffff" stroke-width="2"/>
+                    </svg>
+                    </button>
+                    <button class="slider-nav__arrow" type="button">
+                    <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L11 11L1 21" stroke="#ffffff" stroke-width="2"/>
+                    </svg>
+                    </button>
+                </div>
+                </div>
+                <div class="slider-gallery">
+                    <ul class="slider-gallery__list">
+                        <!-- 1 -->
+                        <li class="slider-gallery__item slider-gallery__item--big">
+                        <a href="assets/images/gallery/photo-1.jpg"><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"></a>
+                        </li>
+                        <!-- 2 -->
+                        <li class="slider-gallery__item">
+                        <a href="assets/images/gallery/photo-2.jpg"><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"></a>
+                        </li>
+                        <!-- 3 -->
+                        <li class="slider-gallery__item">
+                        <a href="assets/images/gallery/photo-3.jpg"><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"></a>
+                        </li>
+                        <!-- 4 -->
+                        <li class="slider-gallery__item">
+                        <a href="assets/images/gallery/photo-4.jpg"><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"></a>
+                        </li>
+                        <!-- 5 -->
+                        <li class="slider-gallery__item">
+                        <a href="assets/images/gallery/photo-5.jpg"><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dots__wrapper">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
             </div>
-            </div>
-            <!-- слайдер -->
-            <div class="slider-gallery">
-            <ul class="slider-gallery__list">
-                <!-- слайд 1 -->
-                <li class="slider-gallery__item slider-gallery__item--big">
-                <a href="assets/images/gallery/photo-1.jpg"><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"></a>
-                </li>
-                <!-- слайд 2 -->
-                <li class="slider-gallery__item">
-                <a href="assets/images/gallery/photo-2.jpg"><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"></a>
-                </li>
-                <!-- слайд 3 -->
-                <li class="slider-gallery__item">
-                <a href="assets/images/gallery/photo-3.jpg"><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"></a>
-                </li>
-                <!-- слайд 4 -->
-                <li class="slider-gallery__item">
-                <a href="assets/images/gallery/photo-4.jpg"><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"></a>
-                </li>
-                <!-- слайд 5 -->
-                <li class="slider-gallery__item">
-                <a href="assets/images/gallery/photo-5.jpg"><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"></a>
-                </li>
-            </ul>
-            </div>
-        </div>
         </section>
     
         <!-- section-reviews -->
@@ -310,7 +321,6 @@
             </div>
             <div class="section-reviews__row">
             <div class="section-reviews__slider">
-                <!-- навигация для слайдера -->
                 <div class="slider-nav slider-nav--vertical section-reviews__slider-nav">
                 <button class="slider-nav__arrow slider-nav__arrow--disabled" type="button">
                     <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -323,10 +333,9 @@
                     </svg>
                 </button>
                 </div>
-                <!-- слайдер -->
                 <div class="slider-review">
                 <ul class="slider-review__list">
-                    <!-- слайд 1 -->
+                    <!-- 1 -->
                     <li class="slider-review__item">
                     <div class="review">
                         <h3 class="review__title">We had an amazing time tonight!</h3>
@@ -337,7 +346,7 @@
                         </footer>
                     </div>
                     </li>
-                    <!-- слайд 2 -->
+                    <!-- 2 -->
                     <li class="slider-review__item">
                     <div class="review">
                         <h3 class="review__title">Had a great time watching the Sandlot!</h3>
@@ -350,9 +359,15 @@
                     </li>
                 </ul>
                 </div>
+                <div class="dots__wrapper">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
             </div>
             <div class="section-review__poster"><img src="assets/images/reviews-poster.jpg" alt=""></div>
-            </div>
+        </div>
         </div>
         </section>
     
@@ -389,15 +404,12 @@
         </section>
     </main>
     
-    <!-- подвал страницы -->
+    <!-- Footer -->
     <footer class="page-footer">
         <div class="page-footer__main">
         <div class="container">
             <div class="page-footer__row">
-            <!-- лого -->
-            <div class="page-footer__logo"><img src="assets/images/logo.svg" alt="Rooftop Cinema" width="120"></div>
-    
-            <!-- контакты в футере -->
+            <div class="page-footer__logo"><img src="assets/images/icons/logo.svg" alt="Rooftop Cinema" width="120"></div>
             <address class="page-footer__contact">
                 <div class="page-footer__contact-column">
                 <div class="page-footer__contact-title">Our contacts</div>
@@ -411,8 +423,6 @@
                 <p>4920 S Avalon Blvd, Los Angeles, CA&nbsp;90011</p>
                 </div>
             </address>
-    
-            <!-- форма подписки -->
             <div class="page-footer__subscribe">
                 <form action="/">
                 <div class="subscribe-form">
@@ -428,10 +438,7 @@
         <div class="page-footer__bottom">
         <div class="container">
             <div class="page-footer__bottom-row">
-            <!-- копирайт -->
             <div class="page-footer__copyright">© All rights reserved • <a href="#!">Terms & Conditions</a> • <a href="#!">Privacy Policy</a></div>
-            
-            <!-- ссылки на социальные сети -->
             <div class="page-footer__social">
                 <ul class="social-list">
                 <li class="social-list__item"><a href="#!" target="_blank">
@@ -458,5 +465,7 @@
         </div>
         </div>
     </footer>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/slider.js"></script>
 </body>
 </html>
