@@ -282,7 +282,6 @@ stroke: var(--color-light);
 
 .slider-nav--vertical {
     flex-direction: column;
-    margin-right: 40px;
 }
 
 .slider-nav--vertical .slider-nav__arrow{
