@@ -1,561 +1,894 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rooftop Cinema</title>
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
-    <link rel="manifest" href="assets/images/site.webmanifest">
-    <link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#121521">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/images/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/images/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#121521" />
+    <meta name="theme-color" content="#ffffff" />
     <!-- Fonts Awesome -->
-    <script src="https://kit.fontawesome.com/1d2e153e32.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/1d2e153e32.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <!-- Darker Grotesque -->
-    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <!-- Josefin Sans -->
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <!-- normalize -->
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
     <!-- Variables -->
-    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/variables.css" />
     <!-- Main css -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body class="page">
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body class="page">
     <!-- Header -->
     <header class="page-header">
-        <div class="container page-header__row">
-        <img src="assets/images/icons/logo.svg" alt="RCinema" width="120">
+      <div class="container page-header__row">
+        <img src="assets/images/icons/logo.svg" alt="RCinema" width="120" />
 
         <nav class="page-header__nav">
-            <ul class="mainmenu">
+          <ul class="mainmenu">
             <li class="mainmenu__item"><a href="#!">The experience</a></li>
             <li class="mainmenu__item"><a href="#!">Booking info</a></li>
             <li class="mainmenu__item"><a href="#!">Our locations</a></li>
             <li class="mainmenu__item"><a href="#!">Gallery</a></li>
             <li class="mainmenu__item"><a href="#!">Reviews</a></li>
             <li class="mainmenu__item"><a href="#!">Contact us</a></li>
-            </ul>
+          </ul>
         </nav>
 
         <div class="mobilemenu">
-            <span class="mobilemenu__item"></span>
-            <span class="mobilemenu__item"></span>
-            <span class="mobilemenu__item"></span>
+          <span class="mobilemenu__item"></span>
+          <span class="mobilemenu__item"></span>
+          <span class="mobilemenu__item"></span>
         </div>
-        </div>
+      </div>
     </header>
-    
+
     <!-- Main -->
     <main>
-        <!-- section cover -->
-        <section class="section-cover">
+      <!-- section cover -->
+      <section class="section-cover">
         <div class="container section-cover__row">
-            <div class="section-cover__main">
-            <h1 class="section-cover__title"><span>Open-Air Film Experience</span> Rooftop Cinema</h1>
-            <div class="section-cover__text">To turn your movie night <br>into an adventure</div>
+          <div class="section-cover__main">
+            <h1 class="section-cover__title">
+              <span>Open-Air Film Experience</span> Rooftop Cinema
+            </h1>
+            <div class="section-cover__text">
+              To turn your movie night <br />into an adventure
+            </div>
             <div class="section-cover__actions">
-                <a href="#!" class="button button--primary">Book a day</a>
-                <a href="#!" class="button button--secondary">How it works</a>
+              <a href="#!" class="button button--primary">Book a day</a>
+              <a href="#!" class="button button--secondary">How it works</a>
             </div>
-            </div>
-            <div class="section-cover__poster">
-            <img src="assets/images/cover-poster.jpg" alt="Rooftop Cinema" height="750">
-            </div>
+          </div>
+          <div class="section-cover__poster">
+            <img
+              src="assets/images/cover-poster.jpg"
+              alt="Rooftop Cinema"
+              height="750"
+            />
+          </div>
         </div>
-        </section>
-    
-        <!-- section-benefits -->
-        <section class="page-section section-benefits">
+      </section>
+
+      <!-- section-benefits -->
+      <section class="page-section section-benefits">
         <div class="container">
-            <div class="section-benefits__row">
+          <div class="section-benefits__row">
             <div class="section-benefits__video">
-                <a class="videobox" href="#!">
-                <img src="assets/images/benefits-poster.jpg" alt="">
-                <svg class="videobox__icon" width="60" height="60" viewBox="0 0 60 60" fill="#40467C" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="60" height="60"/>
-                    <path d="M41 30.2791L24 42V30V18L41 30.2791Z" stroke="white" stroke-width="2"/>
+              <a class="videobox" href="#!">
+                <img src="assets/images/benefits-poster.jpg" alt="" />
+                <svg
+                  class="videobox__icon"
+                  width="60"
+                  height="60"
+                  viewBox="0 0 60 60"
+                  fill="#40467C"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <rect width="60" height="60" />
+                  <path
+                    d="M41 30.2791L24 42V30V18L41 30.2791Z"
+                    stroke="white"
+                    stroke-width="2"
+                  />
                 </svg>
-                </a>
+              </a>
             </div>
             <div class="section-benefits__text">
-                <h2 class="page-section__title">Open-air film <br>experience</h2>
-                <ul class="section-benefits__list">
+              <h2 class="page-section__title">
+                Open-air film <br />experience
+              </h2>
+              <ul class="section-benefits__list">
                 <li class="section-benefits__item">
-                    <h3>Personal Headphones</h3>
-                    <p>Live completely in those movie moments, try to catch them!</p>
+                  <h3>Personal Headphones</h3>
+                  <p>
+                    Live completely in those movie moments, try to catch them!
+                  </p>
                 </li>
                 <li class="section-benefits__item">
-                    <h3>City Views</h3>
-                    <p>Our locations immerseyou in the city skyline at night</p>
+                  <h3>City Views</h3>
+                  <p>Our locations immerseyou in the city skyline at night</p>
                 </li>
                 <li class="section-benefits__item">
-                    <h3>Chairs & Cozy Blankets</h3>
-                    <p>Lean back and relax under the night sky in the hugs of fluffy blanket</p>
+                  <h3>Chairs & Cozy Blankets</h3>
+                  <p>
+                    Lean back and relax under the night sky in the hugs
+                    of fluffy blanket
+                  </p>
                 </li>
                 <li class="section-benefits__item">
-                    <h3>Iconic Movies</h3>
-                    <p>Our program is curated with cult films, classics, and new releases</p>
+                  <h3>Iconic Movies</h3>
+                  <p>
+                    Our program is curated with cult films, classics, and new
+                    releases
+                  </p>
                 </li>
-                </ul>
+              </ul>
             </div>
-            </div>
+          </div>
         </div>
-        </section>
-    
-        <!-- section-places -->
-        <section class="page-section section-places">
+      </section>
+
+      <!-- section-places -->
+      <section class="page-section section-places">
         <div class="container">
-            <div class="page-section__header">
+          <div class="page-section__header">
             <h2 class="page-section__title">Our locations</h2>
             <!-- slider -->
             <div class="slider-nav slider-nav--horizontal">
-                <button class="slider-nav__arrow slider-nav__arrow--disabled" type="button">
-                <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 1L2 11L12 21" stroke="#ffffff" stroke-width="2"/>
+              <button
+                class="slider-nav__arrow slider-nav__arrow--disabled"
+                type="button"
+              >
+                <svg
+                  width="13"
+                  height="22"
+                  viewBox="0 0 13 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 1L2 11L12 21"
+                    stroke="#ffffff"
+                    stroke-width="2"
+                  />
                 </svg>
-                </button>
-                <button class="slider-nav__arrow" type="button">
-                <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L11 11L1 21" stroke="#ffffff" stroke-width="2"/>
+              </button>
+              <button class="slider-nav__arrow" type="button">
+                <svg
+                  width="13"
+                  height="22"
+                  viewBox="0 0 13 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M1 1L11 11L1 21" stroke="#ffffff" stroke-width="2" />
                 </svg>
-                </button>
+              </button>
             </div>
-            </div>
-            <div class="slider-places">
+          </div>
+          <div class="slider-places">
             <ul class="slider-places__list">
-                <!-- 1 -->
-                <li class="slider-places__item active">
+              <!-- 1 -->
+              <li class="slider-places__item active">
                 <div class="place-card">
-                    <div class="place-card__photo">
-                    <img src="assets/images/place-1.jpg" alt="">
-                    <a href="#!" class="place-card__action button button--primary">Choose location</a>
-                    </div>
-                    <div class="place-card__info">
+                  <div class="place-card__photo">
+                    <img src="assets/images/place-1.jpg" alt="" />
+                    <a
+                      href="#!"
+                      class="place-card__action button button--primary"
+                      >Choose location</a
+                    >
+                  </div>
+                  <div class="place-card__info">
                     <div class="place-card__row">
-                        <h3 class="place-card__title">Cinema Club El Segundo</h3>
-                        <div class="place-card__rate">4.6</div>
+                      <h3 class="place-card__title">Cinema Club El Segundo</h3>
+                      <div class="place-card__rate">4.6</div>
                     </div>
                     <div class="place-card__row">
-                        <div class="place-card__city">Los Angeles</div>
-                        <div class="place-card__price">From $25<span>/person</span></div>
+                      <div class="place-card__city">Los Angeles</div>
+                      <div class="place-card__price">
+                        From $25<span>/person</span>
+                      </div>
                     </div>
-                    </div>
+                  </div>
                 </div>
-                </li>
-                <!-- 2 -->
-                <li class="slider-places__item">
+              </li>
+              <!-- 2 -->
+              <li class="slider-places__item">
                 <div class="place-card">
-                    <div class="place-card__photo">
-                    <img src="assets/images/place-2.jpg" alt="">
-                    <a href="#!" class="place-card__action button button--primary">Choose location</a>
-                    </div>
-                    <div class="place-card__info">
+                  <div class="place-card__photo">
+                    <img src="assets/images/place-2.jpg" alt="" />
+                    <a
+                      href="#!"
+                      class="place-card__action button button--primary"
+                      >Choose location</a
+                    >
+                  </div>
+                  <div class="place-card__info">
                     <div class="place-card__row">
-                        <h3 class="place-card__title">The Drive-In Off Navigation</h3>
-                        <div class="place-card__rate">4.8</div>
+                      <h3 class="place-card__title">
+                        The Drive-In Off Navigation
+                      </h3>
+                      <div class="place-card__rate">4.8</div>
                     </div>
                     <div class="place-card__row">
-                        <div class="place-card__city">Houston</div>
-                        <div class="place-card__price">From $22<span>/person</span></div>
+                      <div class="place-card__city">Houston</div>
+                      <div class="place-card__price">
+                        From $22<span>/person</span>
+                      </div>
                     </div>
-                    </div>
+                  </div>
                 </div>
-                </li>
-                <!-- 3 -->
-                <li class="slider-places__item">
+              </li>
+              <!-- 3 -->
+              <li class="slider-places__item">
                 <div class="place-card">
-                    <div class="place-card__photo">
-                    <img src="assets/images/place-3.jpg" alt="">
-                    <a href="#!" class="place-card__action button button--primary">Choose location</a>
-                    </div>
-                    <div class="place-card__info">
+                  <div class="place-card__photo">
+                    <img src="assets/images/place-3.jpg" alt="" />
+                    <a
+                      href="#!"
+                      class="place-card__action button button--primary"
+                      >Choose location</a
+                    >
+                  </div>
+                  <div class="place-card__info">
                     <div class="place-card__row">
-                        <h3 class="place-card__title">Cinema Club Embracadero</h3>
-                        <div class="place-card__rate">4.2</div>
+                      <h3 class="place-card__title">Cinema Club Embracadero</h3>
+                      <div class="place-card__rate">4.2</div>
                     </div>
                     <div class="place-card__row">
-                        <div class="place-card__city">San Diego</div>
-                        <div class="place-card__price">From $25<span>/person</span></div>
+                      <div class="place-card__city">San Diego</div>
+                      <div class="place-card__price">
+                        From $25<span>/person</span>
+                      </div>
                     </div>
-                    </div>
+                  </div>
                 </div>
-                </li>
-                <!-- 4 -->
-                <li class="slider-places__item">
+              </li>
+              <!-- 4 -->
+              <li class="slider-places__item">
                 <div class="place-card">
-                    <div class="place-card__photo">
-                    <img src="assets/images/place-1.jpg" alt="">
-                    <a href="#!" class="place-card__action button button--primary">Choose location</a>
-                    </div>
-                    <div class="place-card__info">
+                  <div class="place-card__photo">
+                    <img src="assets/images/place-1.jpg" alt="" />
+                    <a
+                      href="#!"
+                      class="place-card__action button button--primary"
+                      >Choose location</a
+                    >
+                  </div>
+                  <div class="place-card__info">
                     <div class="place-card__row">
-                        <h3 class="place-card__title">Cinema Club Embracadero</h3>
-                        <div class="place-card__rate">4.2</div>
+                      <h3 class="place-card__title">Cinema Club Embracadero</h3>
+                      <div class="place-card__rate">4.2</div>
                     </div>
                     <div class="place-card__row">
-                        <div class="place-card__city">San Diego</div>
-                        <div class="place-card__price">From $25<span>/person</span></div>
+                      <div class="place-card__city">San Diego</div>
+                      <div class="place-card__price">
+                        From $25<span>/person</span>
+                      </div>
                     </div>
-                    </div>
+                  </div>
                 </div>
-                </li>
+              </li>
             </ul>
-            </div>
+          </div>
 
-            <div class="dots__wrapper">
-                <span class="dot place__dot active"></span>
-                <span class="dot place__dot"></span>
-                <span class="dot place__dot"></span>
-                <span class="dot place__dot"></span>
-            </div>
+          <div class="dots__wrapper">
+            <span class="dot place__dot active"></span>
+            <span class="dot place__dot"></span>
+            <span class="dot place__dot"></span>
+            <span class="dot place__dot"></span>
+          </div>
         </div>
-        </section>
-    
-        <!-- section-faq -->
-        <section class="page-section section-faq">
+      </section>
+
+      <!-- section-faq -->
+      <section class="page-section section-faq">
         <div class="container">
-            <div class="section-faq__row">
+          <div class="section-faq__row">
             <div class="section-faq__content">
-                <div class="page-section__header">
+              <div class="page-section__header">
                 <h2 class="page-section__title">Booking info</h2>
-                </div>
-                <!-- faq list -->
-                <ul class="faq-list">
+              </div>
+              <!-- faq list -->
+              <ul class="faq-list">
                 <!-- 1 -->
                 <li class="faq-list__item faq-card">
-                    <div class="faq-card__toggle" role="button" tabindex="0">How does it work?<i class="faq-card__toggle-icon"></i></div>
-                    <div class="faq-card__content">
-                    <p>The Private Cinema can be set up anywhere you like, be it poolside, on the lawn or even the roof terrace, provided there is an available power outlet. All films must start after sunset.</p>
-                    <p>Our team of experts arrive in a fully equipped van and will advise you on the best place to setup the cinema based on our experience.</p>
-                    </div>
+                  <div class="faq-card__toggle" role="button" tabindex="0">
+                    How does it work?<i class="faq-card__toggle-icon"></i>
+                  </div>
+                  <div class="faq-card__content">
+                    <p>
+                      The Private Cinema can be set up anywhere you like, be it
+                      poolside, on the lawn or even the roof terrace, provided
+                      there is an available power outlet. All films must start
+                      after sunset.
+                    </p>
+                    <p>
+                      Our team of experts arrive in a fully equipped van and
+                      will advise you on the best place to setup the cinema
+                      based on our experience.
+                    </p>
+                  </div>
                 </li>
                 <!-- 2 -->
                 <li class="faq-list__item faq-card">
-                    <div class="faq-card__toggle" role="button" tabindex="0">What films can I choose?<i class="faq-card__toggle-icon"></i></div>
-                    <div class="faq-card__content">
-                    <p>Our team of experts arrive in a fully equipped van and will advise you on the best place to setup the cinema based on our experience.</p>
-                    </div>
+                  <div class="faq-card__toggle" role="button" tabindex="0">
+                    What films can I choose?<i
+                      class="faq-card__toggle-icon"
+                    ></i>
+                  </div>
+                  <div class="faq-card__content">
+                    <p>
+                      Our team of experts arrive in a fully equipped van and
+                      will advise you on the best place to setup the cinema
+                      based on our experience.
+                    </p>
+                  </div>
                 </li>
                 <!-- 3 -->
                 <li class="faq-list__item faq-card">
-                    <div class="faq-card__toggle" role="button" tabindex="0">How long does it takes to setup?<i class="faq-card__toggle-icon"></i></div>
-                    <div class="faq-card__content">
-                    <p>The Private Cinema can be set up anywhere you like, be it poolside, on the lawn or even the roof terrace, provided there is an available power outlet. All films must start after sunset.</p>
-                    <p>Our team of experts arrive in a fully equipped van and will advise you on the best place to setup the cinema based on our experience.</p>
-                    </div>
+                  <div class="faq-card__toggle" role="button" tabindex="0">
+                    How long does it takes to setup?<i
+                      class="faq-card__toggle-icon"
+                    ></i>
+                  </div>
+                  <div class="faq-card__content">
+                    <p>
+                      The Private Cinema can be set up anywhere you like, be it
+                      poolside, on the lawn or even the roof terrace, provided
+                      there is an available power outlet. All films must start
+                      after sunset.
+                    </p>
+                    <p>
+                      Our team of experts arrive in a fully equipped van and
+                      will advise you on the best place to setup the cinema
+                      based on our experience.
+                    </p>
+                  </div>
                 </li>
-                </ul>
+              </ul>
             </div>
             <div class="section-faq__poster"></div>
-            </div>
+          </div>
         </div>
-        </section>
-    
-        <!-- section-gallery -->
-        <section class="page-section section-gallery">
-            <div class="container">
-                <div class="page-section__header">
-                <h2 class="page-section__title">Gallery</h2>
-                <div class="page-section__header-text">See more and follow us <a href="#!" target="_blank">@rooftopcinema</a></div>
-                <!-- slider -->
-                <div class="slider-nav slider-nav--horizontal">
-                    <button class="slider-nav__arrow slider-nav__arrow--prev" type="button">
-                    <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 1L2 11L12 21" stroke="#ffffff" stroke-width="2"/>
-                    </svg>
-                    </button>
-                    <button class="slider-nav__arrow slider-nav__arrow--next" type="button">
-                    <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 1L11 11L1 21" stroke="#ffffff" stroke-width="2"/>
-                    </svg>
-                    </button>
-                </div>
-                </div>
-                <div class="slider-gallery">
-                    <ul class="slider-gallery__list slider-gallery__list--acive">
-                        <!-- 1 -->
-                        <li class="slider-gallery__item slider-gallery__item--big">
-                        <a href="assets/images/gallery/photo-1.jpg"><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 2 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-2.jpg"><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 3 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-3.jpg"><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 4 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-4.jpg"><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 5 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-5.jpg"><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"></a>
-                        </li>
-                    </ul>
-                    <ul class="slider-gallery__list">
-                        <!-- 1 -->
-                        <li class="slider-gallery__item slider-gallery__item--big">
-                        <a href="assets/images/gallery/photo-2.jpg"><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 2 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-3.jpg"><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 3 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-4.jpg"><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 4 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-5.jpg"><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 5 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-1.jpg"><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"></a>
-                        </li>
-                    </ul>
-                    <ul class="slider-gallery__list">
-                        <!-- 1 -->
-                        <li class="slider-gallery__item slider-gallery__item--big">
-                        <a href="assets/images/gallery/photo-3.jpg"><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 2 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-4.jpg"><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 3 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-5.jpg"><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 4 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-1.jpg"><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 5 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-2.jpg"><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"></a>
-                        </li>
-                    </ul>
-                    <ul class="slider-gallery__list">
-                        <!-- 1 -->
-                        <li class="slider-gallery__item slider-gallery__item--big">
-                        <a href="assets/images/gallery/photo-4.jpg"><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 2 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-5.jpg"><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 3 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-1.jpg"><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 4 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-2.jpg"><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 5 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-3.jpg"><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"></a>
-                        </li>
-                    </ul>
-                    <ul class="slider-gallery__list">
-                        <!-- 1 -->
-                        <li class="slider-gallery__item slider-gallery__item--big">
-                        <a href="assets/images/gallery/photo-5.jpg"><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 2 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-1.jpg"><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 3 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-2.jpg"><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 4 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-3.jpg"><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"></a>
-                        </li>
-                        <!-- 5 -->
-                        <li class="slider-gallery__item">
-                        <a href="assets/images/gallery/photo-4.jpg"><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="dots__wrapper">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
-            </div>
-        </section>
-    
-        <!-- section-reviews -->
-        <section class="page-section section-reviews">
+      </section>
+
+      <!-- section-gallery -->
+      <section class="page-section section-gallery">
         <div class="container">
-            <div class="page-section__header">
-            <h2 class="page-section__title">Customers reviews</h2>
+          <div class="page-section__header">
+            <h2 class="page-section__title">Gallery</h2>
+            <div class="page-section__header-text">
+              See more and follow us
+              <a href="#!" target="_blank">@rooftopcinema</a>
             </div>
-            <div class="section-reviews__row">
+            <!-- slider -->
+            <div class="slider-nav slider-nav--horizontal">
+              <button
+                class="slider-nav__arrow slider-nav__arrow--prev"
+                type="button"
+              >
+                <svg
+                  width="13"
+                  height="22"
+                  viewBox="0 0 13 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12 1L2 11L12 21"
+                    stroke="#ffffff"
+                    stroke-width="2"
+                  />
+                </svg>
+              </button>
+              <button
+                class="slider-nav__arrow slider-nav__arrow--next"
+                type="button"
+              >
+                <svg
+                  width="13"
+                  height="22"
+                  viewBox="0 0 13 22"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M1 1L11 11L1 21" stroke="#ffffff" stroke-width="2" />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="slider-gallery">
+            <ul class="slider-gallery__list slider-gallery__list--acive">
+              <!-- 1 -->
+              <li class="slider-gallery__item slider-gallery__item--big">
+                <a href="assets/images/gallery/photo-1.jpg"
+                  ><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 2 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-2.jpg"
+                  ><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 3 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-3.jpg"
+                  ><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 4 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-4.jpg"
+                  ><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 5 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-5.jpg"
+                  ><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"
+                /></a>
+              </li>
+            </ul>
+            <ul class="slider-gallery__list">
+              <!-- 1 -->
+              <li class="slider-gallery__item slider-gallery__item--big">
+                <a href="assets/images/gallery/photo-2.jpg"
+                  ><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 2 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-3.jpg"
+                  ><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 3 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-4.jpg"
+                  ><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 4 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-5.jpg"
+                  ><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 5 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-1.jpg"
+                  ><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"
+                /></a>
+              </li>
+            </ul>
+            <ul class="slider-gallery__list">
+              <!-- 1 -->
+              <li class="slider-gallery__item slider-gallery__item--big">
+                <a href="assets/images/gallery/photo-3.jpg"
+                  ><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 2 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-4.jpg"
+                  ><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 3 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-5.jpg"
+                  ><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 4 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-1.jpg"
+                  ><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 5 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-2.jpg"
+                  ><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"
+                /></a>
+              </li>
+            </ul>
+            <ul class="slider-gallery__list">
+              <!-- 1 -->
+              <li class="slider-gallery__item slider-gallery__item--big">
+                <a href="assets/images/gallery/photo-4.jpg"
+                  ><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 2 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-5.jpg"
+                  ><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 3 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-1.jpg"
+                  ><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 4 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-2.jpg"
+                  ><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 5 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-3.jpg"
+                  ><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"
+                /></a>
+              </li>
+            </ul>
+            <ul class="slider-gallery__list">
+              <!-- 1 -->
+              <li class="slider-gallery__item slider-gallery__item--big">
+                <a href="assets/images/gallery/photo-5.jpg"
+                  ><img src="assets/images/gallery/photo-5.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 2 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-1.jpg"
+                  ><img src="assets/images/gallery/photo-1.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 3 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-2.jpg"
+                  ><img src="assets/images/gallery/photo-2.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 4 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-3.jpg"
+                  ><img src="assets/images/gallery/photo-3.jpg" alt="photo 1"
+                /></a>
+              </li>
+              <!-- 5 -->
+              <li class="slider-gallery__item">
+                <a href="assets/images/gallery/photo-4.jpg"
+                  ><img src="assets/images/gallery/photo-4.jpg" alt="photo 1"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="dots__wrapper">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- section-reviews -->
+      <section class="page-section section-reviews">
+        <div class="container">
+          <div class="page-section__header">
+            <h2 class="page-section__title">Customers reviews</h2>
+          </div>
+          <div class="section-reviews__row">
             <div class="section-reviews__slider">
-                <div class="slider-nav slider-nav--vertical section-reviews__slider-nav">
-                <button class="slider-nav__arrow slider-nav__arrow--disabled" type="button">
-                    <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 1L2 11L12 21" stroke="#ffffff" stroke-width="2"/>
-                    </svg>
+              <div
+                class="slider-nav slider-nav--vertical section-reviews__slider-nav"
+              >
+                <button
+                  class="slider-nav__arrow slider-nav__arrow--disabled"
+                  type="button"
+                >
+                  <svg
+                    width="13"
+                    height="22"
+                    viewBox="0 0 13 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 1L2 11L12 21"
+                      stroke="#ffffff"
+                      stroke-width="2"
+                    />
+                  </svg>
                 </button>
                 <button class="slider-nav__arrow" type="button">
-                    <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1 1L11 11L1 21" stroke="#ffffff" stroke-width="2"/>
-                    </svg>
+                  <svg
+                    width="13"
+                    height="22"
+                    viewBox="0 0 13 22"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 1L11 11L1 21"
+                      stroke="#ffffff"
+                      stroke-width="2"
+                    />
+                  </svg>
                 </button>
-                </div>
-                <div class="slider-review">
+              </div>
+              <div class="slider-review">
                 <ul class="slider-review__list">
-                    <!-- 1 -->
-                    <li class="slider-review__item">
+                  <!-- 1 -->
+                  <li class="slider-review__item">
                     <div class="review">
-                        <h3 class="review__title">We had an amazing time tonight!</h3>
-                        <div class="review__text">The parking attendants were great & the quality of the movie was very good. We got front row parking because we came early. Loved the experience of it all! Highly recommend for a date night.</div>
-                        <footer class="review__footer">
+                      <h3 class="review__title">
+                        We had an amazing time tonight!
+                      </h3>
+                      <div class="review__text">
+                        The parking attendants were great & the quality of the
+                        movie was very good. We got front row parking because we
+                        came early. Loved the experience of it all! Highly
+                        recommend for a date night.
+                      </div>
+                      <footer class="review__footer">
                         <div class="review__author">Review by Traci Rc</div>
                         <div class="review__datetime">12 hours ago</div>
-                        </footer>
+                      </footer>
                     </div>
-                    </li>
-                    <!-- 2 -->
-                    <li class="slider-review__item">
+                  </li>
+                  <!-- 2 -->
+                  <li class="slider-review__item">
                     <div class="review">
-                        <h3 class="review__title">Had a great time watching the Sandlot!</h3>
-                        <div class="review__text">Everyone who works there is amazing. Some patrons may need to be a little more patient & understanding... a socially distant pop-up drive-in theater may not be for everyone!</div>
-                        <footer class="review__footer">
-                        <div class="review__author">Review by Rebekka Jonson</div>
+                      <h3 class="review__title">
+                        Had a great time watching the Sandlot!
+                      </h3>
+                      <div class="review__text">
+                        Everyone who works there is amazing. Some patrons may
+                        need to be a little more patient & understanding... a
+                        socially distant pop-up drive-in theater may not be for
+                        everyone!
+                      </div>
+                      <footer class="review__footer">
+                        <div class="review__author">
+                          Review by Rebekka Jonson
+                        </div>
                         <div class="review__datetime">5 days ago</div>
-                        </footer>
+                      </footer>
                     </div>
-                    </li>
+                  </li>
                 </ul>
-                </div>
-                <div class="dots__wrapper">
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                </div>
+              </div>
+              <div class="dots__wrapper">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
             </div>
-            <div class="section-review__poster"><img src="assets/images/reviews-poster.jpg" alt=""></div>
+            <div class="section-review__poster">
+              <img src="assets/images/reviews-poster.jpg" alt="" />
+            </div>
+          </div>
         </div>
-        </div>
-        </section>
-    
-        <!-- section-contact -->
-        <section class="page-section section-contact">
+      </section>
+
+      <!-- section-contact -->
+      <section class="page-section section-contact">
         <div class="container">
-            <div class="section-contact__row">
+          <div class="section-contact__row">
             <div class="section-contact__content">
-                <div class="page-section__header">
+              <div class="page-section__header">
                 <h2 class="page-section__title">Drop us a line</h2>
-                </div>
-                <form action="/" class="section-contact__form contact-form">
+              </div>
+              <form action="/" class="section-contact__form contact-form">
                 <div class="contact-form__field">
-                    <input type="text" class="input-field" placeholder="Enter your name">
+                  <input
+                    type="text"
+                    class="input-field"
+                    placeholder="Enter your name"
+                  />
                 </div>
                 <div class="contact-form__field">
-                    <input type="email" class="input-field" placeholder="Enter your email">
+                  <input
+                    type="email"
+                    class="input-field"
+                    placeholder="Enter your email"
+                  />
                 </div>
                 <div class="contact-form__field">
-                    <textarea class="input-field contact-form__textarea" placeholder="Type you question"></textarea>
+                  <textarea
+                    class="input-field contact-form__textarea"
+                    placeholder="Type you question"
+                  ></textarea>
                 </div>
                 <div class="contact-form__footer">
-                    <button class="contact-form__submit button button--primary">Send message</button>
-                    <label class="contact-form__terms checkbox">
-                    <input type="checkbox" class="checkbox__input" checked>
-                    <span class="checkbox__text">I have read and agree with the <a href="#!" target="_blank">Terms And Conditions</a></span>
-                    </label>
+                  <button class="contact-form__submit button button--primary">
+                    Send message
+                  </button>
+                  <label class="contact-form__terms checkbox">
+                    <input type="checkbox" class="checkbox__input" checked />
+                    <span class="checkbox__text"
+                      >I have read and agree with the <a
+                        href="#!"
+                        target="_blank"
+                        >Terms And Conditions</a
+                      ></span
+                    >
+                  </label>
                 </div>
-                </form>
+              </form>
             </div>
-            </div>
-            <div class="section-contact__poster"><img src="assets/images/contact-poster.jpg" alt=""></div>
+          </div>
+          <div class="section-contact__poster">
+            <img src="assets/images/contact-poster.jpg" alt="" />
+          </div>
         </div>
-        </section>
+      </section>
     </main>
-    
+
     <!-- Footer -->
     <footer class="page-footer">
-        <div class="page-footer__main">
+      <div class="page-footer__main">
         <div class="container">
-            <div class="page-footer__row">
-            <div class="page-footer__logo"><img src="assets/images/icons/logo.svg" alt="Rooftop Cinema" width="120"></div>
+          <div class="page-footer__row">
+            <div class="page-footer__logo">
+              <img
+                src="assets/images/icons/logo.svg"
+                alt="Rooftop Cinema"
+                width="120"
+              />
+            </div>
             <address class="page-footer__contact">
-                <div class="page-footer__contact-column">
+              <div class="page-footer__contact-column">
                 <div class="page-footer__contact-title">Our contacts</div>
                 <p>
-                    <a href="mailto:info@roofcinema.com">info@roofcinema.com</a><br>
-                    <a href="tel:+175684565612">+17(568) 456-56-12</a>
+                  <a href="mailto:info@roofcinema.com">info@roofcinema.com</a
+                  ><br />
+                  <a href="tel:+175684565612">+17(568) 456-56-12</a>
                 </p>
-                </div>
-                <div class="page-footer__contact-column">
+              </div>
+              <div class="page-footer__contact-column">
                 <div class="page-footer__contact-title">Our office</div>
                 <p>4920 S Avalon Blvd, Los Angeles, CA&nbsp;90011</p>
-                </div>
+              </div>
             </address>
             <div class="page-footer__subscribe">
-                <form action="/">
+              <form action="/">
                 <div class="subscribe-form">
-                    <input type="email" class="subscribe-form__input" placeholder="Enter your email">
-                    <button class="button button--primary subscribe-form__submit" type="submit">Sign up</button>
+                  <input
+                    type="email"
+                    class="subscribe-form__input"
+                    placeholder="Enter your email"
+                  />
+                  <button
+                    class="button button--primary subscribe-form__submit"
+                    type="submit"
+                  >
+                    Sign up
+                  </button>
                 </div>
-                </form>
+              </form>
             </div>
-            </div>
+          </div>
         </div>
-        </div>
-    
-        <div class="page-footer__bottom">
+      </div>
+
+      <div class="page-footer__bottom">
         <div class="container">
-            <div class="page-footer__bottom-row">
-            <div class="page-footer__copyright">© All rights reserved • <a href="#!">Terms & Conditions</a> • <a href="#!">Privacy Policy</a></div>
+          <div class="page-footer__bottom-row">
+            <div class="page-footer__copyright">
+              © All rights reserved • <a href="#!">Terms & Conditions</a> •
+              <a href="#!">Privacy Policy</a>
+            </div>
             <div class="page-footer__social">
-                <ul class="social-list">
-                <li class="social-list__item"><a href="#!" target="_blank">
-                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M32.2407 46.0626H27.1062C26.2485 46.0626 25.5509 45.365 25.5509 44.5073V32.9261H22.5553C21.6977 32.9261 21 32.2282 21 31.3708V26.4083C21 25.5506 21.6977 24.853 22.5553 24.853H25.5509V22.3679C25.5509 19.9039 26.3246 17.8075 27.7882 16.3058C29.2583 14.7972 31.3129 14 33.7297 14L37.6455 14.0064C38.5017 14.0078 39.1981 14.7055 39.1981 15.5616V20.1693C39.1981 21.0269 38.5007 21.7246 37.6433 21.7246L35.0068 21.7255C34.2028 21.7255 33.998 21.8867 33.9543 21.9362C33.8821 22.0181 33.7962 22.2498 33.7962 22.8894V24.8527H37.4452C37.7199 24.8527 37.9861 24.9205 38.2148 25.0482C38.7082 25.3239 39.0149 25.8452 39.0149 26.4085L39.013 31.3711C39.013 32.2282 38.3153 32.9259 37.4577 32.9259H33.7962V44.5073C33.7962 45.365 33.0983 46.0626 32.2407 46.0626ZM27.4305 44.183H31.9163V32.0846C31.9163 31.512 32.3823 31.0462 32.9547 31.0462H37.1333L37.135 26.7326H32.9545C32.3821 26.7326 31.9163 26.2669 31.9163 25.6942V22.8894C31.9163 22.1551 31.9909 21.32 32.5453 20.6923C33.215 19.9335 34.2705 19.8459 35.0064 19.8459L37.3185 19.8449V15.8855L33.7282 15.8796C29.8442 15.8796 27.4305 18.3659 27.4305 22.3679V25.6942C27.4305 26.2666 26.9648 26.7326 26.3924 26.7326H22.8796V31.0462H26.3924C26.9648 31.0462 27.4305 31.512 27.4305 32.0846V44.183ZM37.6419 15.886H37.6421H37.6419Z" fill="white"/>
+              <ul class="social-list">
+                <li class="social-list__item">
+                  <a href="#!" target="_blank">
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 60 60"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M32.2407 46.0626H27.1062C26.2485 46.0626 25.5509 45.365 25.5509 44.5073V32.9261H22.5553C21.6977 32.9261 21 32.2282 21 31.3708V26.4083C21 25.5506 21.6977 24.853 22.5553 24.853H25.5509V22.3679C25.5509 19.9039 26.3246 17.8075 27.7882 16.3058C29.2583 14.7972 31.3129 14 33.7297 14L37.6455 14.0064C38.5017 14.0078 39.1981 14.7055 39.1981 15.5616V20.1693C39.1981 21.0269 38.5007 21.7246 37.6433 21.7246L35.0068 21.7255C34.2028 21.7255 33.998 21.8867 33.9543 21.9362C33.8821 22.0181 33.7962 22.2498 33.7962 22.8894V24.8527H37.4452C37.7199 24.8527 37.9861 24.9205 38.2148 25.0482C38.7082 25.3239 39.0149 25.8452 39.0149 26.4085L39.013 31.3711C39.013 32.2282 38.3153 32.9259 37.4577 32.9259H33.7962V44.5073C33.7962 45.365 33.0983 46.0626 32.2407 46.0626ZM27.4305 44.183H31.9163V32.0846C31.9163 31.512 32.3823 31.0462 32.9547 31.0462H37.1333L37.135 26.7326H32.9545C32.3821 26.7326 31.9163 26.2669 31.9163 25.6942V22.8894C31.9163 22.1551 31.9909 21.32 32.5453 20.6923C33.215 19.9335 34.2705 19.8459 35.0064 19.8459L37.3185 19.8449V15.8855L33.7282 15.8796C29.8442 15.8796 27.4305 18.3659 27.4305 22.3679V25.6942C27.4305 26.2666 26.9648 26.7326 26.3924 26.7326H22.8796V31.0462H26.3924C26.9648 31.0462 27.4305 31.512 27.4305 32.0846V44.183ZM37.6419 15.886H37.6421H37.6419Z"
+                        fill="white"
+                      />
                     </svg>
-                </a></li>
-                <li class="social-list__item"><a href="#!" target="_blank">
-                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M36.8793 15H23.1207C18.6429 15 15 18.6429 15 23.1207V36.8795C15 41.3571 18.6429 45 23.1207 45H36.8795C41.3571 45 45 41.3571 45 36.8795V23.1207C45 18.6429 41.3571 15 36.8793 15ZM43.2413 36.8795C43.2413 40.3873 40.3873 43.2413 36.8793 43.2413H23.1207C19.6127 43.2413 16.7587 40.3873 16.7587 36.8795V23.1207C16.7587 19.6127 19.6127 16.7587 23.1207 16.7587H36.8795C40.3873 16.7587 43.2413 19.6127 43.2413 23.1207V36.8795Z" fill="white"/>
-                    <path d="M30 21.7971C25.4768 21.7971 21.7971 25.4768 21.7971 30C21.7971 34.5232 25.4768 38.2029 30 38.2029C34.5232 38.2029 38.2029 34.5232 38.2029 30C38.2029 25.4768 34.5232 21.7971 30 21.7971ZM30 36.4442C26.4468 36.4442 23.5558 33.5534 23.5558 30C23.5558 26.4468 26.4468 23.5558 30 23.5558C33.5534 23.5558 36.4442 26.4468 36.4442 30C36.4442 33.5534 33.5534 36.4442 30 36.4442Z" fill="white"/>
-                    <path d="M38.399 18.8839C37.0624 18.8839 35.9752 19.9713 35.9752 21.3078C35.9752 22.6444 37.0624 23.7318 38.399 23.7318C39.7357 23.7318 40.8231 22.6444 40.8231 21.3078C40.8231 19.9711 39.7357 18.8839 38.399 18.8839ZM38.399 21.9729C38.0324 21.9729 37.7339 21.6744 37.7339 21.3078C37.7339 20.9409 38.0324 20.6426 38.399 20.6426C38.7659 20.6426 39.0644 20.9409 39.0644 21.3078C39.0644 21.6744 38.7659 21.9729 38.399 21.9729Z" fill="white"/>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="#!" target="_blank">
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 60 60"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M36.8793 15H23.1207C18.6429 15 15 18.6429 15 23.1207V36.8795C15 41.3571 18.6429 45 23.1207 45H36.8795C41.3571 45 45 41.3571 45 36.8795V23.1207C45 18.6429 41.3571 15 36.8793 15ZM43.2413 36.8795C43.2413 40.3873 40.3873 43.2413 36.8793 43.2413H23.1207C19.6127 43.2413 16.7587 40.3873 16.7587 36.8795V23.1207C16.7587 19.6127 19.6127 16.7587 23.1207 16.7587H36.8795C40.3873 16.7587 43.2413 19.6127 43.2413 23.1207V36.8795Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M30 21.7971C25.4768 21.7971 21.7971 25.4768 21.7971 30C21.7971 34.5232 25.4768 38.2029 30 38.2029C34.5232 38.2029 38.2029 34.5232 38.2029 30C38.2029 25.4768 34.5232 21.7971 30 21.7971ZM30 36.4442C26.4468 36.4442 23.5558 33.5534 23.5558 30C23.5558 26.4468 26.4468 23.5558 30 23.5558C33.5534 23.5558 36.4442 26.4468 36.4442 30C36.4442 33.5534 33.5534 36.4442 30 36.4442Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M38.399 18.8839C37.0624 18.8839 35.9752 19.9713 35.9752 21.3078C35.9752 22.6444 37.0624 23.7318 38.399 23.7318C39.7357 23.7318 40.8231 22.6444 40.8231 21.3078C40.8231 19.9711 39.7357 18.8839 38.399 18.8839ZM38.399 21.9729C38.0324 21.9729 37.7339 21.6744 37.7339 21.3078C37.7339 20.9409 38.0324 20.6426 38.399 20.6426C38.7659 20.6426 39.0644 20.9409 39.0644 21.3078C39.0644 21.6744 38.7659 21.9729 38.399 21.9729Z"
+                        fill="white"
+                      />
                     </svg>
-                </a></li>
-                <li class="social-list__item"><a href="#!" target="_blank">
-                    <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M34.9254 28.5619L27.8559 24.6938C27.4494 24.4714 26.9689 24.4797 26.5705 24.7157C26.1718 24.9521 25.934 25.3695 25.934 25.8329V33.5028C25.934 33.964 26.1704 34.3807 26.5664 34.6173C26.7731 34.7408 27.0024 34.8029 27.2321 34.8029C27.4426 34.8029 27.6535 34.7509 27.8476 34.6464L34.9174 30.8449C35.3371 30.619 35.599 30.1828 35.601 29.706C35.6027 29.2291 35.3439 28.7909 34.9254 28.5619ZM27.8093 32.538V26.8056L33.0929 29.6967L27.8093 32.538Z" fill="white"/>
-                    <path d="M45.7645 23.5954L45.7631 23.5808C45.736 23.3232 45.4662 21.0322 44.3524 19.8669C43.0651 18.4963 41.6056 18.3298 40.9037 18.25C40.8456 18.2434 40.7924 18.2373 40.7448 18.231L40.6889 18.2251C36.4584 17.9175 30.0695 17.8755 30.0056 17.8752L29.9999 17.875L29.9943 17.8752C29.9304 17.8755 23.5415 17.9175 19.2729 18.2251L19.2165 18.231C19.1711 18.2371 19.1211 18.2427 19.0666 18.249C18.3728 18.3291 16.9289 18.4958 15.6379 19.916C14.5771 21.0688 14.2705 23.3108 14.239 23.5627L14.2354 23.5954C14.2258 23.7026 14 26.2541 14 28.8156V31.2102C14 33.7717 14.2258 36.3232 14.2354 36.4306L14.2371 36.4467C14.2642 36.7001 14.5337 38.9491 15.6423 40.1149C16.8528 41.4396 18.3833 41.6149 19.2065 41.7091C19.3366 41.724 19.4487 41.7367 19.5251 41.7502L19.5991 41.7604C22.0417 41.9928 29.7001 42.1073 30.0248 42.112L30.0346 42.1122L30.0444 42.112C30.1083 42.1117 36.497 42.0697 40.7274 41.7621L40.7833 41.7563C40.8368 41.7492 40.8969 41.7428 40.9628 41.736C41.6527 41.6627 43.0888 41.5106 44.3619 40.1098C45.4227 38.9567 45.7296 36.7148 45.7609 36.4631L45.7645 36.4303C45.774 36.3229 46.0001 33.7717 46.0001 31.2102V28.8156C45.9999 26.2541 45.774 23.7029 45.7645 23.5954ZM44.1246 31.2102C44.1246 33.581 43.9176 36.0226 43.8981 36.2468C43.8185 36.8642 43.495 38.2826 42.9782 38.8444C42.1813 39.7211 41.3627 39.808 40.765 39.8713C40.6928 39.8788 40.6259 39.8861 40.5653 39.8937C36.4735 40.1896 30.3259 40.235 30.0427 40.2367C29.725 40.2321 22.1787 40.1166 19.8105 39.8966C19.6892 39.8769 19.5581 39.8617 19.4199 39.8461C18.719 39.7658 17.7595 39.6559 17.0217 38.8444L17.0044 38.8258C16.4966 38.2968 16.1824 36.9704 16.1025 36.2541C16.0876 36.0846 15.8752 33.6142 15.8752 31.2102V28.8156C15.8752 26.4475 16.0818 24.0085 16.1018 23.7798C16.1968 23.0525 16.5264 21.72 17.0217 21.1814C17.843 20.2781 18.709 20.178 19.2817 20.1118C19.3364 20.1055 19.3874 20.0996 19.4345 20.0935C23.5859 19.7961 29.7778 19.7519 29.9999 19.7502C30.2221 19.7517 36.4118 19.7961 40.5263 20.0935C40.5768 20.0998 40.632 20.1062 40.6913 20.113C41.2804 20.1802 42.1708 20.2817 42.9879 21.1533L42.9955 21.1614C43.5033 21.6904 43.8175 23.04 43.8973 23.7707C43.9115 23.9306 44.1246 26.4065 44.1246 28.8156V31.2102Z" fill="white"/>
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="#!" target="_blank">
+                    <svg
+                      width="60"
+                      height="60"
+                      viewBox="0 0 60 60"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M34.9254 28.5619L27.8559 24.6938C27.4494 24.4714 26.9689 24.4797 26.5705 24.7157C26.1718 24.9521 25.934 25.3695 25.934 25.8329V33.5028C25.934 33.964 26.1704 34.3807 26.5664 34.6173C26.7731 34.7408 27.0024 34.8029 27.2321 34.8029C27.4426 34.8029 27.6535 34.7509 27.8476 34.6464L34.9174 30.8449C35.3371 30.619 35.599 30.1828 35.601 29.706C35.6027 29.2291 35.3439 28.7909 34.9254 28.5619ZM27.8093 32.538V26.8056L33.0929 29.6967L27.8093 32.538Z"
+                        fill="white"
+                      />
+                      <path
+                        d="M45.7645 23.5954L45.7631 23.5808C45.736 23.3232 45.4662 21.0322 44.3524 19.8669C43.0651 18.4963 41.6056 18.3298 40.9037 18.25C40.8456 18.2434 40.7924 18.2373 40.7448 18.231L40.6889 18.2251C36.4584 17.9175 30.0695 17.8755 30.0056 17.8752L29.9999 17.875L29.9943 17.8752C29.9304 17.8755 23.5415 17.9175 19.2729 18.2251L19.2165 18.231C19.1711 18.2371 19.1211 18.2427 19.0666 18.249C18.3728 18.3291 16.9289 18.4958 15.6379 19.916C14.5771 21.0688 14.2705 23.3108 14.239 23.5627L14.2354 23.5954C14.2258 23.7026 14 26.2541 14 28.8156V31.2102C14 33.7717 14.2258 36.3232 14.2354 36.4306L14.2371 36.4467C14.2642 36.7001 14.5337 38.9491 15.6423 40.1149C16.8528 41.4396 18.3833 41.6149 19.2065 41.7091C19.3366 41.724 19.4487 41.7367 19.5251 41.7502L19.5991 41.7604C22.0417 41.9928 29.7001 42.1073 30.0248 42.112L30.0346 42.1122L30.0444 42.112C30.1083 42.1117 36.497 42.0697 40.7274 41.7621L40.7833 41.7563C40.8368 41.7492 40.8969 41.7428 40.9628 41.736C41.6527 41.6627 43.0888 41.5106 44.3619 40.1098C45.4227 38.9567 45.7296 36.7148 45.7609 36.4631L45.7645 36.4303C45.774 36.3229 46.0001 33.7717 46.0001 31.2102V28.8156C45.9999 26.2541 45.774 23.7029 45.7645 23.5954ZM44.1246 31.2102C44.1246 33.581 43.9176 36.0226 43.8981 36.2468C43.8185 36.8642 43.495 38.2826 42.9782 38.8444C42.1813 39.7211 41.3627 39.808 40.765 39.8713C40.6928 39.8788 40.6259 39.8861 40.5653 39.8937C36.4735 40.1896 30.3259 40.235 30.0427 40.2367C29.725 40.2321 22.1787 40.1166 19.8105 39.8966C19.6892 39.8769 19.5581 39.8617 19.4199 39.8461C18.719 39.7658 17.7595 39.6559 17.0217 38.8444L17.0044 38.8258C16.4966 38.2968 16.1824 36.9704 16.1025 36.2541C16.0876 36.0846 15.8752 33.6142 15.8752 31.2102V28.8156C15.8752 26.4475 16.0818 24.0085 16.1018 23.7798C16.1968 23.0525 16.5264 21.72 17.0217 21.1814C17.843 20.2781 18.709 20.178 19.2817 20.1118C19.3364 20.1055 19.3874 20.0996 19.4345 20.0935C23.5859 19.7961 29.7778 19.7519 29.9999 19.7502C30.2221 19.7517 36.4118 19.7961 40.5263 20.0935C40.5768 20.0998 40.632 20.1062 40.6913 20.113C41.2804 20.1802 42.1708 20.2817 42.9879 21.1533L42.9955 21.1614C43.5033 21.6904 43.8175 23.04 43.8973 23.7707C43.9115 23.9306 44.1246 26.4065 44.1246 28.8156V31.2102Z"
+                        fill="white"
+                      />
                     </svg>
-                </a></li>
-                </ul>
+                  </a>
+                </li>
+              </ul>
             </div>
-            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </footer>
     <script src="assets/js/menu.js"></script>
     <script src="assets/js/slider.js"></script>
     <script src="assets/js/carousel.js"></script>
     <script src="assets/js/acordion.js"></script>
-</body>
+  </body>
 </html>
